@@ -1,1 +1,1 @@
-nvcc -Xcompiler -fPIC -shared -I /usr/local/cuda/samples/common/inc/ -o cuda_sum.so cuda_sum.cu
+nvcc -O -Xcompiler -fPIC -shared -I /usr/local/cuda/samples/common/inc/ -o cuda_resize.so cuda_resize.cu
